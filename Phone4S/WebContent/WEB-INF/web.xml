@@ -9,4 +9,26 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  
+<!-- Spring MVC配置 -->
+<!-- ====================================== -->
+<servlet>
+    <servlet-name>spring</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+</servlet>
+ 
+<servlet-mapping>
+    <servlet-name>spring</servlet-name>
+    <url-pattern>*.html</url-pattern>
+</servlet-mapping>
+   
+ 
+ 
+<!-- Spring配置 -->
+<listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+</listener>
+ 
 </web-app>

@@ -10,7 +10,7 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 public class TestJDBC {
-	
+	///
 	public DriverManagerDataSource dataSource = null;
 
 	

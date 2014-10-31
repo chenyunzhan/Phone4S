@@ -63,3 +63,29 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2014-10-28 13:08:22
+drop table if exists CUSTOMER;
+
+/*==============================================================*/
+/* Table: CUSTOMER                                              */
+/*==============================================================*/
+create table CUSTOMER 
+(
+   CUSTOMER_ID          int                            not null,
+   CUSTOMER_NAME        varchar(100)                   null,
+   CUSTOMER_AGE         int                            null,
+   CUSTOMER_NIKENAME    varchar(100)                   null,
+   CUSTOMER_PASSWORD    varchar(100)                   null,
+   CUSTOMER_LANDLINE_TELEPHONE varchar(100)                   null,
+   CUSTOMER_ADDRESS     varchar(100)                   null,
+   CUSTOMER_MOBILE_PHONE varchar(100)                   null,
+   CUSTOMER_CARD_ID     varchar(100)                   null,
+   CUSTOMER_CAREER      varchar(100)                   null,
+   CUSTOMER_EMAIL       varchar(100)                   null,
+   CUSTOMER_SEX         varchar(100)                   null,
+   ATTRIBUTE_ONE        varchar(100)                   null,
+   ATTRIBUTE_TWO        varchar(100)                   null,
+   ATTRIBUTE_THREE      varchar(100)                   null,
+   ATTRIBUTE_FOUR       varchar(100)                   null,
+   ATTRIBUTE_FIVE       varchar(100)                   null,
+   constraint PK_CUSTOMER primary key clustered (CUSTOMER_ID)
+);

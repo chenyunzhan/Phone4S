@@ -12,9 +12,10 @@ $(function(){
 		    data: json,
 		    dataType: "json",
 		    success: function(data){
+		    	alert(data.msg);
 		    },
-		    error: function (msg) {
-		        alert("抱歉，加载商品失败。");
+		    error: function (data) {
+		    	alert(data.msg);
 		    }
 	    });
 	});

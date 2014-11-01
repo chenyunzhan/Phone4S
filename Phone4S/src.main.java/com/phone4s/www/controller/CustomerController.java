@@ -20,7 +20,11 @@ public class CustomerController {
 	
 	@RequestMapping(value="/customerRegister", method=RequestMethod.POST)
     public @ResponseBody String getGoodsPhone(@RequestBody Customer customer) {
-		return null;
+		boolean isSaved = customerService.saveCustomer(customer);
+		if(isSaved){
+			return "{\"success\":true, \"msg\":\"×¢²á³É¹¦\"}";
+		}
+		return "{'success':false, 'msg':'×¢²áÊ§°Ü'}";
     }
 
 }

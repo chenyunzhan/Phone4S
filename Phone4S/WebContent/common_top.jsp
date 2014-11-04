@@ -7,10 +7,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
 <link href="css/phone4s.css" rel="stylesheet">
 <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <title>Phone4S，您手机的4S店</title>
 </head>
 <body>

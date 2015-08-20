@@ -46,4 +46,7 @@ task getjar(overwrite: true,dependsOn: jar) <<{
         from 'build/libs/'  
         into "$targetDir/WebContent/WEB-INF/lib"  
     }  
-}  
+}
+
+
+mainClassName = 'com.phone4s.www'  
